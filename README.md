@@ -6,7 +6,7 @@ A modern, responsive eCommerce template built with Next.js. This template is des
 
 ![App Screenshot](/public/screenshot.png)
 
-[![Full Screenshot](/public/screenshot-full.png)](Full Screenshot)
+[![Full Screenshot](Full Screenshot)](/public/screenshot-full.png)
 
 ## Demo
 
