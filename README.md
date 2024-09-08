@@ -1,6 +1,6 @@
 # Next.js eCommerce Website Template
 
-A modern, responsive eCommerce template built with Next.js. This template is designed to help businesses quickly set up a fully functional online store with features like product listings, categories, and customizable components.
+A modern eCommerce template built with Next.js. This template is designed to help businesses quickly set up a fully functional online store with features like product listings, categories, and customizable components.
 
 ## Screenshots
 
