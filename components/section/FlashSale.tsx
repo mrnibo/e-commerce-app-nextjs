@@ -5,7 +5,6 @@ import { Product, ProductViewAllButton } from "../Product";
 import {
   Carousel,
   CarouselContent,
-  CarouselItem,
   CarouselNext,
   CarouselPrevious,
 } from "../ui/carousel";
@@ -32,7 +31,6 @@ const FlashSale = () => {
                 image={product.image}
                 title={product.title}
                 price={product.price}
-                description={product.description}
                 discount={product.discount}
               />
             ))}

@@ -6,8 +6,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "../ui/carousel";
-import { flashSaleData } from "@/data/product-data";
-import { Product, ProductViewAllButton } from "../Product";
+import { ProductViewAllButton } from "../Product";
 import { CategoryPlaceholer } from "../CategoryPlaceholer";
 import { categoryData } from "@/data/category-data";
 

@@ -8,7 +8,6 @@ interface ProductProps {
   image: string;
   title: string;
   price: string;
-  description: string;
   discount?: string;
 }
 
@@ -17,12 +16,12 @@ export const Product: React.FC<ProductProps> = ({
   image,
   title,
   price,
-  description,
   discount,
 }) => {
   return (
     <div>
       <ProductCard
+        id={id}
         image={image}
         title={title}
         discount={discount}
@@ -41,12 +40,14 @@ export const Product: React.FC<ProductProps> = ({
 };
 
 interface ProductCardProps {
+  id: number;
   image: string;
   title: string;
   price: string;
   discount?: string;
 }
 export const ProductCard: React.FC<ProductCardProps> = ({
+  id,
   image,
   title,
   discount,
@@ -70,7 +71,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
         {/* add to cart btn */}
 
         <div className="absolute bottom-0 w-full bg-black text-white rounded-b-md p-2 hover:shadow-md opacity-0 group-hover:opacity-100 duration-300 text-center">
-          <Link href={"/"} className="border-b border-white">
+          <Link href={`/product/${id}`} className="border-b border-white">
             Add to cart
           </Link>
         </div>

@@ -1,17 +1,8 @@
 import { flashSaleData } from "@/data/product-data";
 import React from "react";
 import { Product, ProductViewAllButton } from "../Product";
-import {
-  Carousel,
-  CarouselNext,
-  CarouselPrevious,
-  CarouselContent,
-} from "../ui/carousel";
-import {
-  SectionTitle,
-  SectionTitleBig,
-  SectionTitleWithTimer,
-} from "../ui/section-title";
+
+import { SectionTitle, SectionTitleBig } from "../ui/section-title";
 
 const OurProducts = () => {
   return (
@@ -28,7 +19,6 @@ const OurProducts = () => {
               image={product.image}
               title={product.title}
               price={product.price}
-              description={product.description}
               discount={product.discount}
             />
           ))}
