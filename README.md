@@ -12,6 +12,10 @@ A modern, responsive eCommerce template built with Next.js. This template is des
 
 https://nibo-e-commerce.vercel.app/
 
+## Figma
+
+https://www.figma.com/community/file/1219312065205187851
+
 ## Features
 
 - **Live Product Previews**: Dynamic product display with interactive previews.
